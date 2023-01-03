@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+
+:root {
+    --primary-background: #44ff00a6;
+    --text-color: 
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    color: white;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background: rgba(142, 181, 125, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 100vw;
+    position: fixed;
+    padding: 10px 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    height: 50px;
+    align-items: center;
+    padding: 20px 0;
+    transition: all .3s ease-in-out;
+}
+
+.head {
+    margin: 0;
+
+    /* background-color: #44ff00a6;
+    background: linear-gradient(to right bottom, rgba(135, 133, 133, 0.7), rgba(236, 231, 231, 0.3)); */
+    width: 100vw;
+    height: 100vh;
+    /* background: url('./environment/images-env/p1.jpg');
+    background-repeat: no-repeat; */
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+
+.head1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 6px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 7px 20px;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+
+
+/* Environment */
+#serv-link {
+    border: 1.7px solid rgb(65, 63, 63);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: transparent;
+    transition: all .4s ease-in;
+}
+#serv-link:hover {
+    border-color: green;
+}
+
+
+.photos {
+    position: relative;
+}
+
+.img-nav {
+    position: absolute;
+    background: transparent;
+    height: 60px;
+    width: 60px;
+    top: 50%;
+    bottom: 50%;
+    border-radius: 50%;
+    padding: 2px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .6s ease;
+}
+
+.img-nav:hover {
+    border: 1.5px solid rgb(65, 63, 63);
+}
+
+.img-nav span {
+    border:2px solid rgb(65, 63, 63);
+    color: wheat;
+    padding: 2px;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+}
+
+.img-nav span:hover {
+    border: 2px solid green;
+}
+
+
+.nav2 {
+    right: 2%;
+}
+.nav1 {
+    left: 2%;
+}
+
+
+/* Solar-energy */
+
+
+
+
+/* Farming */
