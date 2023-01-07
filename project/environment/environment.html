@@ -14,7 +14,29 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
+    <div class="main-container">
+
+    
     <div class="container">
+        <nav class="nav ">
+        <!-- Toggle Button -->
+        
+        
+            <div class="logo-container">
+                <img src="../images/logo1.png" alt="no image">
+            </div>
+            <ul id="navigation" class="nav-colapse collapse">
+                <li><a href="#">Home</a></li>
+                <li><i class="bi bi-dash-lg"></i><a href="#">About</a><i class="bi bi-dash-lg"></i></li>
+                <li id="serv-link"><a href="#">Services</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+                <button id="toggle-button" class="toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        </nav>
         <div class="image-container">
             <div class="banner">
                 <h1>Conserve The environment <span>&</span> save our planet</h1>
@@ -34,39 +56,158 @@
             </div>
             
         </div>
-        <nav>
-            <!-- Toggle Button -->
-            <!-- <button id="toggle-button" class="toggle">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button> -->
-            
-            <div class="logo-container">
-                    <h1>New Dawn</h1>
-            </div>
-            <ul id="navigation" class="nav-colapse">
-                <li><a href="#">Home</a></li>
-                <li><i class="bi bi-dash-lg"></i><a href="#">About</a><i class="bi bi-dash-lg"></i></li>
-                <li id="serv-link"><a  href="#">Services</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-            
-        </nav>
+        
     </div>
     <main>
-        <!-- <section class="container-2">
+        <section class="container-2">
             <div class="plants">
                 <div class="sec-title">
-                    <h1><i class="bi bi-dash-lg"></i> Latest Plants <i class="bi bi-dash-lg"></i></h1>
-                    <p>Our users are actively involved in the just cause. Check their latest activities and plant your own trees</p>
+                    <h1><i class="bi bi-dash-lg"></i> Topics<i class="bi bi-dash-lg"></i></h1> </div>               </div>
+                <div class="sec-items">
+                    <div class="card-container">
+                        <div class="card planting-trees">
+                            <img src="images-env/background.jpg" alt="">
+                            
+                            <h3>Plant a tree</h3>
+                            
+                            
+                            <div class="overview">
+                                <p>Planting trees has numerous benefits for the environment. Trees absorb carbon dioxide from the air and release oxygen,
+                                which...</p>
+                                <a href="">
+                                    <div class="btn learn">
+                                        <p>Learn more</p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                        <div class="card decompose-pit">
+                            <img src="images-env/compost.jpg" alt="">
+                            
+                            <h3>Natural Fertilizers</h3>
+                            <div class="overview">
+                                <p>A decompose pit is a simple and effective way to turn your food waste and yard trimmings into nutrient-rich compost.</p>
+                                <a href="">
+                                    <div class="btn learn">
+                                        <p>Learn more</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="card recycling">
+                            <img src="images-env/recycle.png" alt="">
+                            
+                            <h3>Recycling</h3>
+                            
+                            
+                            <div class="overview">
+                                <p>Recycling is an important way to reduce waste and conserve natural resources.</p>
+                                <a href="">
+                                    <div class="btn learn">
+                                        <p>Learn more</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card energy-saving">
+                            <img src="images-env/energy_saving_africa.png" alt="">
+                            
+                            <h3>Energy Saving</h3>
+                            
+                            
+                            <div class="overview">
+                                <p>Energy saving bulbs, also known as LED bulbs, are a great way to reduce energy consumption and save money on your energy
+                                bills.</p>
+                                <a href="">
+                                    <div class="btn learn">
+                                        <p>Learn more</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card water-conservation">
+                            <img src="images-env/water_conservation_africa.png" alt="">
+                            
+                            <h3>Water conservation</h3>
+                            
+                            
+                            <div class="overview">
+                                <p>Water conservation is an important way to protect our water resources and ensure that there is enough water for
+                                everyone.</p>
+                                <a href="">
+                                    <div class="btn learn">
+                                        <p>Learn more</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card women-environment">
+                            <img src="images-env/women_and_natural_environmet.png" alt="">
+                            
+                            <h3>Women and environment</h3>
+                            
+                            
+                            <div class="overview">
+                                <p>Women and the environment are inextricably linked, as women are often the primary caregivers and providers of resources
+                                in their communities.</p>
+                                <a href="">
+                                    <div class="btn learn">
+                                        <p>Learn more</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card renewable">
+                            <img src="images-env/background.jpg" alt="">
+                            
+                            <h3>Renewable Energy</h3>
+                            
+                            
+                            <div class="overview">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices nibh a massa imperdiet, a
+                                    lobortis
+                                    enim finibus.</p>
+                                <a href="">
+                                    <div class="btn learn">
+                                        <p>Learn more</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section> -->
+        </section>
     </main>
     <footer>
-    
+        <div class="footer-container">
+            <div class="footer-container-inner">
+                <div class="footer-logo">
+                    <div class="logo-container">
+                        <img src="../images/logo1.png" alt="no image">
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2022 All rights reserved</p>
+            </div>
+        </div>
+        
     </footer>
+
+    </div>
 
     <script src="../script.js"></script>
 </body>
