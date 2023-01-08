@@ -1,4 +1,11 @@
+const menu = document.querySelector('.nav-colapse');
 
+
+const toggle = document.querySelector('.toggle');
+toggle.addEventListener('click', () => {
+    menu.classList.toggle('collapse');
+    toggle.classList.toggle('active');
+});
 
 
 
@@ -7,15 +14,19 @@
 // Environment
 
 const nav = document.querySelector('.nav');
+
 window.addEventListener('scroll', function () {
     if (window.scrollY > nav.offsetHeight + 300) {
         nav.classList.add('active');
+        menu.classList.add('active');
         // menu.classList.add('active');
     } else {
         nav.classList.remove('active');
-        // menu.classList.remove('active');
+        menu.classList.remove('active');
     }
 });
+
+
 
 // Select all cards
 const cards = document.querySelectorAll('.card');
