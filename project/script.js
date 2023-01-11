@@ -10,8 +10,11 @@ toggle.addEventListener('click', () => {
 
 
 
-
 // Environment
+const loader = document.getElementById("loader-container");
+window.addEventListener("load", function () {
+    loader.style.display = "none";
+});
 
 const nav = document.querySelector('.nav');
 
