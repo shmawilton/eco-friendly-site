@@ -225,7 +225,7 @@ main {
 .container {
     width: 100%;
     height: 100vh;
-    background-color: var(--primary-background);
+    /* background-color: var(--primary-background); */
 }
 
 .container  h1 {
@@ -257,6 +257,12 @@ main {
     height: 55px;
     width: 55px;
     transition: all .5s ease;
+}
+
+@media (max-width: 768px) {
+    .but-nav {
+        bottom: 20%;
+    }
 }
 .but-nav span:hover {
     border: 1.5px solid var(--border-color);
@@ -408,7 +414,7 @@ h1 {
     overflow: hidden;
     width: 100px;
     flex: 0 0 calc(33.3333% - 20px);
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 
 
 background: rgba(193, 225, 173, 0.4);

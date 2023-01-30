@@ -29,13 +29,13 @@ window.addEventListener('scroll', function () {
     }
 });
 
-// const image = document.querySelector('.image-container');
-// const prev = document.querySelector('.prev')
-// const next = document.querySelector('.next')
+const image = document.querySelector('.image-container');
+const prev = document.querySelector('.prev')
+const next = document.querySelector('.next')
 
-// prev.addEventListener('click', function () {
-//     image.style.background.url = './images-env/compost.jpg';
-// })
+prev.addEventListener('click', function () {
+    image.style.backgroundImage = "url('./images-env/compost.jpg')";
+})
 
 // Select all cards
 const cards = document.querySelectorAll('.card');
