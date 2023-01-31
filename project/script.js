@@ -62,8 +62,35 @@ window.addEventListener('scroll', function () {
 });
 
 
+
+
 // Farming
 
 
 
 // Solar
+
+// Contact form
+// const labels = document.querySelectorAll('.form-control label')
+
+// labels.forEach(label => {
+//     label.innerHTML = label.innerText.split('').map((letter, idx) => `<span style="transition-delay: ${idx * 70}ms">${letter}</span>`).join('')
+// })
+
+
+
+//removing the # from the url
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', event => {
+        event.preventDefault();
+        const targetId = link.getAttribute('href');
+        const target = document.querySelector(targetId);
+        if (target) {
+            const top = target.offsetTop;
+            window.scrollTo({
+                top,
+                behavior: 'smooth',
+            });
+        }
+    });
+});

@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:ital,wght@0,400;0,700;1,100&display=swap"
         rel="stylesheet">
@@ -14,8 +14,6 @@
     <title>Environment</title>
     <link rel="stylesheet" href="./env-style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
-    <link href="https://unpkg.com/@videojs/themes@1/dist/city/index.css" rel="stylesheet">
     <link rel="stylesheet" href="planting.css">
 </head>
 
@@ -61,7 +59,7 @@
                     <li><a href="#">Home</a></li>
                     <li><i class="bi bi-dash-lg"></i><a href="#">About</a><i class="bi bi-dash-lg"></i></li>
                     <li id="serv-link"><a href="#">Services</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#contact">Contacts</a></li>
                 </ul>
                 <button id="toggle-button" class="toggle">
                     <span class="icon-bar"></span>
@@ -72,18 +70,31 @@
             <div class="image-container">
                 <div class="banner">
                     <div class="about">
-                        <h1>About Planting</h1>
-                        <p>Planting is one of the important things that is ought to be considered when wanting to plant a tree</p>
+                        <h1>Plant a tree <span>&</span> Save our Planet</h1>
+                        <p>This is a project that brings together people who are not indifferent to the fate of our planet
+                            and would like to somhow contribute to improving its situation. Are you one of them? Then join
+                        </p>
                     </div>
+                </div>
+            
+            </div>
+            <div class="services-cont">
+                <h1><i class="bi bi-dash-lg"></i>In Store for You<i class="bi bi-dash-lg"></i></h1>
+                
+                <div class="container-serv animate__bounceInRight">
+                    <div class="btn-1"><a href="#importance">Importance of tree planting</a></div>
+                    <div class="btn-1"><a href="#trees">Tree Examples</a></div>
+                    <div class="btn-1"><a href="#seedling">Planting a Seedling</a></div>
+                
                 </div>
             
             </div>
 
         </div>
         <main class="main">
-            <div class="sec-1">
+            <div class="sec-1" id="importance">
                 <div class="importance">
-                    <div class="imp-title">
+                    <div class="imp-title animate__backInUp">
                     </div>
                     <h2><i class="bi bi-dash-lg"></i>Importance of Planting<i class="bi bi-dash-lg"></i></h2>
                     <div class="imp-1 imp">
@@ -107,9 +118,246 @@
                     
                 </div>
             </div>
-            <div class="sec-2">
-                <h2>Exotic Trees</h2>
+            
+            <div class="sec-2" id="trees">
+                <h2><i class="bi bi-dash-lg"></i>Tree Types<i class="bi bi-dash-lg"></i></h2>
                 
+                <div class="container-cards">
+                    <div class="column">
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <img src="./images-env/baoba.jpg" alt="">
+                            </div>
+                            <p>BaoBab Tree</p>
+                        </div>
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                                    
+                                </div>
+                                <img src="./images-env/accacia.jpeg" alt="">
+                            </div>
+                            <p>Accacia Tree</p>
+                        </div>
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                                
+                                </div>
+                                <img src="./images-env/mvule.jpg" alt="">
+                            </div>
+                            <p>Mvule Tree</p>
+                        </div>
+                
+                    </div>
+                    <div class="column">
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                                
+                                </div>
+                                <img src="./images-env/mahogany.jpg" alt="">
+                            </div>
+                            <p>Mahogany Tree</p>
+                        </div>
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                        
+                                </div>
+                                <img src="./images-env/wattle.jpg" alt="">
+                            </div>
+                            <p>Wattle Tree</p>
+                        </div>
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                        
+                                </div>
+                                <img src="./images-env/wenge.jpg" alt="">
+                            </div>
+                            <p>Wenge Tree</p>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="column">
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                                    
+                                </div>
+                                <img src="./images-env/olive.jpg" alt="">
+                            </div>
+                            <p>Olive</p>
+                        </div>
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                        
+                                </div>
+                                <img src="./images-env/bushveld.jpg" alt="">
+                            </div>
+                            <p>Bushveld Tree</p>
+                        </div>
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                                    
+                                </div>
+                                <img src="./images-env/white-stinkwood.jpg" alt="">
+                            </div>
+                            <p>White Stinkwood</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                        
+                                </div>
+                                <img src="./images-env/marula.jpeg" alt="">
+                            </div>
+                            <p>Marula Tree</p>
+                        </div>
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                        
+                                </div>
+                                <img src="./images-env/muninga.jpg" alt="">
+                            </div>
+                            <p>Muninga Tree</p>
+                        </div>
+                        
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <div class="overlay">
+                                    <div>
+                                        <p>Creator</p>
+                                    </div>
+                        
+                                </div>
+                                <img src="./images-env/doum-palm.jpg" alt="">
+                            </div>
+                            <p>Doum Palm</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="sec-3" id="seedling">
+                <div class="importance">
+                    <div class="imp-title-2">
+                    </div>
+                    <h2><i class="bi bi-dash-lg"></i>Planting Seedlings<i class="bi bi-dash-lg"></i></h2>
+                    <div class="sed-1 imp">
+                        <i class="bi bi-1-circle"></i>
+                        <h5>Suitable location</h5>
+                        <p>Choose a location that has well-draining soil, adequate sunlight, and enough space for the tree to grow to its full
+                        size.
+                        </p>
+                    </div>
+                    <div class="sed-2 imp">
+                        <i class="bi bi-2-circle"></i>
+                        <h5>Prepare the soil</h5>
+                        <p>Dig a hole that is twice as wide as the root ball and just as deep. Loosen the soil at the bottom of the hole to allow
+                        the roots to spread out easily.</p>
+                    </div>
+                    <div class="sed-3 imp">
+                        <i class="bi bi-3-circle"></i>
+                        <h5>Water the seedling</h5>
+                        <p>Soak the root ball of the seedling in water for a few hours to help hydrate the roots and reduce transplant shock.</p>
+                    </div>
+                    <div class="sed-4 imp">
+                        <i class="bi bi-4-circle"></i>
+                        <h5>Plant the seedling</h5>
+                        <p>Place the seedling in the hole so that the top of the root ball is level with the surrounding soil. Fill the hole with
+                        soil, tamping it down gently around the roots to remove any air pockets.</p>
+                    </div>
+                    <div class="sed-5 imp">
+                        <i class="bi bi-5-circle"></i>
+                        <h5>Water the seedling again</h5>
+                        <p>Water the seedling thoroughly to settle the soil and encourage root growth.</p>
+                    </div>
+                    <div class="sed-6 imp">
+                        <i class="bi bi-6-circle"></i>
+                        <h5>Mulch the soil</h5>
+                        <p>Spread a layer of mulch around the base of the seedling, keeping it away from the trunk. Mulch helps retain moisture and
+                        control weeds.</p>
+                    </div>
+                    <div class="sed-7 imp">
+                        <i class="bi bi-7-circle"></i>
+                        <h5>Monitor the seedling</h5>
+                        <p>Keep an eye on the seedling and water it regularly, especially during dry periods, to ensure that it stays hydrated and
+                        healthy.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="sec-4 sec-3" id="contact">
+                <h2><i class="bi bi-dash-lg"></i>Seedling Assistance<i class="bi bi-dash-lg"></i></h2>
+                <div class="container-contact">
+                    <h1>Contact Us</h1>
+                
+                    <form>
+                        <div class="form-control">
+                            <input type="text">
+                            <label>Name</label>
+                        </div>
+                
+                        <div class="form-control">
+                            <input type="Email">
+                            <label>Email</label>
+                        </div>
+
+                        <div class="form-control">
+                            <input type="text">
+                            <label>Contact</label>
+                        </div>
+                
+                        <button class="btn">Submit</button>
+                
+                        <!-- <p class="text">Don't have an account? <a href="#">Register</a></p> -->
+                    </form>
+                </div>
             </div>
     </main>
 
@@ -140,7 +388,14 @@
 
     </div>
 
+    
     <script src="../script.js"></script>
+    <script>
+    const labels = document.querySelectorAll('.form-control label')
+
+        labels.forEach(label => {
+            label.innerHTML = label.innerText.split('').map((letter, idx) => `<span style="transition-delay: ${idx * 70}ms">${letter}</span>`).join('')
+        })</script>
 </body>
 
 </html>
